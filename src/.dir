@@ -4,7 +4,7 @@ source $(cli loader)
 help() {
 cat << EOF
 Command
-    ${CLI_PATH} : Visual Studio Code Server CLI
+    ${CLI_COMMAND} : Visual Studio Code Server CLI
 
 Global Arguments
     --help -h               : Show this message and exit.
