@@ -39,4 +39,4 @@ main() {
 EOF
 }
 
-cli::load "$@"
+cli::main "$@"

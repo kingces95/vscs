@@ -45,4 +45,4 @@ vscs::declare_dirs() {
     commit_dir=${server_dir}/bin/${arg_commit}
 }
 
-cli::load "$@"
+cli::main "$@"
