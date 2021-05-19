@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source $(cli loader)
+source $(cli loader ---exports)
 source /dev/stdin < <(cli::import vscs .dir)
 source /dev/stdin < <(cli::import cli_util)
 
