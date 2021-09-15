@@ -6,7 +6,7 @@ source /dev/stdin < <(cli::import cli_util)
 help() (
 util::unindent << EOF
     Command
-        ${CLI_COMMAND} : Yield the pid of a running Visual Studio Code Server.
+        ${CLI_COMMAND[@]} : Yield the pid of a running Visual Studio Code Server.
 
     Arguments
         --commit -c     [required]  : Commit of running server.
